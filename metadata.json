@@ -1,0 +1,6 @@
+{
+  "name": "Juli's Story",
+  "description": "An immersive, beautiful birthday celebration web app for Juli, featuring high-energy animations, custom interactive backgrounds, a photo gallery of memories, a message board of birthday wishes, and whimsical interactive games.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
