@@ -7,7 +7,7 @@ import confetti from 'canvas-confetti';
 
 export default function WishesView() {
   const [wishes, setWishes] = useState<Wish[]>(() => {
-    const saved = localStorage.getItem('juli_wishes');
+    const saved = localStorage.getItem('juli_muro_wishes_v3');
     if (saved) {
       try {
         return JSON.parse(saved);
@@ -41,7 +41,7 @@ export default function WishesView() {
 
     const updated = [newWish, ...wishes];
     setWishes(updated);
-    localStorage.setItem('juli_wishes', JSON.stringify(updated));
+    localStorage.setItem('juli_muro_wishes_v3', JSON.stringify(updated));
 
     // Clear inputs
     setSender('');
@@ -60,7 +60,7 @@ export default function WishesView() {
   const handleDeleteWish = (id: string) => {
     const updated = wishes.filter(w => w.id !== id);
     setWishes(updated);
-    localStorage.setItem('juli_wishes', JSON.stringify(updated));
+    localStorage.setItem('juli_muro_wishes_v3', JSON.stringify(updated));
   };
 
   const handleLikeWish = (id: string) => {
@@ -81,7 +81,7 @@ export default function WishesView() {
       return w;
     });
     setWishes(updated);
-    localStorage.setItem('juli_wishes', JSON.stringify(updated));
+    localStorage.setItem('juli_muro_wishes_v3', JSON.stringify(updated));
   };
 
   const colorStyles: Record<Wish['color'], { bg: string, text: string, border: string, accent: string }> = {

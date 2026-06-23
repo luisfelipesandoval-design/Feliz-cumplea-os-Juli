@@ -41,49 +41,22 @@ export const PRESET_MEMORIES: MemoryChapter[] = [
 
 export const PRESET_WISHES: Wish[] = [
   {
-    id: 'wish-1',
-    sender: 'Santi',
-    text: '¡Cumpleaños súper feliz para la mejor compañera de aventuras! Que hoy y siempre brilles con esa hermosa energía que contagia a todos. ¡Te quiero mil! 💖🎈',
+    id: 'wish-dienton',
+    sender: 'Dientón',
+    text: '¡Feliz cumpleaños, Juli! 🎉 Que este nuevo año de vida venga cargado de muchísima felicidad, risas, juegos en Roblox y momentos maravillosos. Eres una personita increíblemente divertida, alegre y especial. ¡Te quiero un montón! 💖🐹🎂',
     color: 'pink',
-    sticker: '🎉',
-    date: 'Hace 2 horas',
-    likes: 8
-  },
-  {
-    id: 'wish-2',
-    sender: 'Ma y Pa',
-    text: 'Hija querida, estamos sumamente orgullosos del gran ser humano en el que te has convertido. Nunca pierdas tu hermosa sonrisa ni esa dulzura. ¡Feliz día, princesa! ✨🎂',
-    color: 'yellow',
-    sticker: '👑',
-    date: 'Hace 5 horas',
+    sticker: '🐹',
+    date: 'Hace unos momentos',
     likes: 12
   },
   {
-    id: 'wish-3',
-    sender: 'Valen',
-    text: '¡Juli de mi corazón! 🌈 Sos un arcoíris en la vida de quienes te conocemos. Que la pases increíble y que este nuevo año esté lleno de magia, ropa aesthetic y mucha felicidad.',
+    id: 'wish-demi',
+    sender: 'De mí',
+    text: '¡Muchísimas felicidades, Juli! ✨ Que tu día esté lleno de pasteles deliciosos, música genial y risas interminables. Gracias por compartir tu brillo y tu hermosa energía con nosotros. ¡Que todos tus sueños se hagan realidad hoy y siempre! 🎈🍭🎂',
     color: 'lavender',
-    sticker: '🦄',
-    date: 'Hace 6 horas',
-    likes: 5
-  },
-  {
-    id: 'wish-4',
-    sender: 'Sofi',
-    text: '¡Feliz cumpleee! Que se te cumplan todos tus sueños más locos. Sos la mejor confidente y la reina indiscutible del estilo Roblox ✨🥳 ¡Te mando abrazos y pastel virtual!',
-    color: 'blue',
-    sticker: '🎂',
-    date: 'Hace 8 horas',
-    likes: 7
-  },
-  {
-    id: 'wish-5',
-    sender: 'Lucas',
-    text: '¡Felicidades Juli! Gracias por estar siempre dispuesta a echar una mano y por ser tan asombrosamente fiel con tus amigos. Sos una crack total ⚽🍦',
-    color: 'mint',
-    sticker: '🍦',
-    date: 'Ayer',
-    likes: 3
+    sticker: '✨',
+    date: 'Hace unos momentos',
+    likes: 8
   }
 ];
 
